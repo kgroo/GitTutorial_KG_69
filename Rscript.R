@@ -19,5 +19,5 @@
   xyplot(mpg ~ hp | factor(paste('cyl:',cyl)),
          data = mtcars,
          col = "yellow")
-
+#dont forget the grid!
 # --- end-of-script --- 
