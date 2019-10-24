@@ -1,4 +1,4 @@
-# author: SC
+# author: KG
 # project: github tutorial
 # ---
 
@@ -18,6 +18,6 @@
 
   xyplot(mpg ~ hp | factor(paste('cyl:',cyl)),
          data = mtcars,
-         col = "orange")
+         col = "yellow")
 
 # --- end-of-script --- 
